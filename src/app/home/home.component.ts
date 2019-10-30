@@ -14,11 +14,11 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   this.books = [
-    { Title: "Harry Potter", url: "./assets/hp.jpg"},
-    { Title: "Mrs. Dalloway", url: "./assets/md.jpg"},
-    { Title: "Outliers", url: "./assets/out.jpg"},
-    { Title: "Mindset", url: "./assets/mind.jpg"},
-    { Title: "Gravity's Rainbow", url: "./assets/gr.jpg"}
+    { Title: "Harry Potter", url: "https://i.imgur.com/4FBtrG4.jpg"},
+    { Title: "Mrs. Dalloway", url: "https://i.imgur.com/atn5GOf.jpg"},
+    { Title: "Outliers", url: "https://i.imgur.com/hAe9xRQ.jpg"},
+    { Title: "Mindset", url: "https://i.imgur.com/daY38gc.jpg"},
+    { Title: "Gravity's Rainbow", url: "https://i.imgur.com/9u55U3h.jpg"}
 
   ];
   }
