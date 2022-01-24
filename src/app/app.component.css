@@ -1,0 +1,14 @@
+p {
+  font-family: Lato;
+}
+
+.wishlist {
+  color: white;
+  margin-right: 2px;
+
+}
+
+.wishlist-pill {
+  margin-right: 15px;
+  margin-top: -18px;
+}

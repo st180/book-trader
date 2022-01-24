@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-1">
+    </div>
+  <div class="col-md-8">
+    <div *ngFor="let book of myBooks" class="card card-books mb-3 mr-3 ml-3 mt-3" style="max-width: 540px;display:inline-block;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="{{book.url}}" class="card-img" style="max-width: 240px;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{book.Title}}</h5>
+          <button type="button" class="btn btn-primary position-relative">
+            Watching
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              3
+            </span>
+          </button>          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-md-3 right-panel">
+      <div class="card mx-auto mt-3" style="width: 18rem;">
+        <img src="./assets/shaun.png" class="card-img-top" width="200px">
+          <div class="card-body">
+            <h5 class="card-title">Shaun Teeshad</h5>
+            <p class="card-text">I enjoy reading classics and nonfictiond</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+      </div>
+  </div>
+
+</div>
