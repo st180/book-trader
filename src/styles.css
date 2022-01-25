@@ -1,3 +1,5 @@
+.card-books {display:inline-block;}
+
 .card:hover{
     box-shadow: 8px 8px 8px grey;
     transform:scale(1.05);
