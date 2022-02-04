@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ProtractorExpectedConditions } from 'protractor';
 
 @Component({
   selector: 'app-home',
